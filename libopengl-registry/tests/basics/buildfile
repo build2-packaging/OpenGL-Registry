@@ -1,0 +1,3 @@
+import libs = libopengl-registry%lib{opengl-registry}
+
+exe{driver}: {h c}{**} $libs testscript{**}
