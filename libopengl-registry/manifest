@@ -8,7 +8,6 @@ project: opengl-registry
 summary: Khronos OpenGL, OpenGL ES, and OpenGL SC API and extension headers
 topics: OpenGL API, Khronos registry, graphics headers
 license: MIT, Apache-2.0, SGI-B-2.0
-description-file: README.adoc
 package-description-file: PACKAGE-README.md
 url: https://github.com/KhronosGroup/OpenGL-Registry
 doc-url: https://registry.khronos.org/OpenGL/
