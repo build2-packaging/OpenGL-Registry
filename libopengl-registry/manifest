@@ -1,15 +1,20 @@
 : 1
 name: libopengl-registry
-version: 0.1.0-a.0.z
+version: 2026.8.3-a.0.z
+upstream-version: 20260803
 type: lib,binless
 language: c
-project: build2-OpenGL-Registry
-summary: opengl-registry C library
-license: MIT ; MIT License.
+project: opengl-registry
+summary: Khronos OpenGL, OpenGL ES, and OpenGL SC API and extension headers
+topics: OpenGL API, Khronos registry, graphics headers
+license: MIT, Apache-2.0, SGI-B-2.0
+description-file: README.adoc
 package-description-file: PACKAGE-README.md
-url: https://example.org/upstream
-email: upstream@example.org
-package-url: https://github.com/build2-packaging/build2-OpenGL-Registry
-package-email: packaging@build2.org ; Mailing list.
+url: https://github.com/KhronosGroup/OpenGL-Registry
+doc-url: https://registry.khronos.org/OpenGL/
+src-url: https://github.com/KhronosGroup/OpenGL-Registry
+package-url: https://github.com/build2-packaging/OpenGL-Registry
+package-email: packaging@build2.org
 depends: * build2 >= 0.18.0
 depends: * bpkg >= 0.18.0
+depends: libegl-registry ~2026.3.19

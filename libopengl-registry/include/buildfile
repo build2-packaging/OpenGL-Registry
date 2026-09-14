@@ -1,5 +1,5 @@
 intf_libs = # Interface dependencies.
-#import xxxx_libs += libhello%lib{hello}
+import intf_libs += libegl-registry%lib{egl-registry}
 
 lib{opengl-registry}: h{**} $intf_libs
 
