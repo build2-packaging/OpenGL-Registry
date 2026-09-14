@@ -1,7 +1,6 @@
 : 1
 name: libopengl-registry
 version: 2026.8.3-a.0.z
-upstream-version: 20260803
 type: lib,binless
 language: c
 project: opengl-registry
@@ -16,4 +15,4 @@ package-url: https://github.com/build2-packaging/OpenGL-Registry
 package-email: packaging@build2.org
 depends: * build2 >= 0.18.0
 depends: * bpkg >= 0.18.0
-depends: libegl-registry ~2026.3.19
+depends: libegl-registry ~ 2026.3.19
