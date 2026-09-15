@@ -1,4 +1,17 @@
-./: {*/ -build/} doc{README.adoc PACKAGE-README.md LICENSE} manifest
+./: {*/ -build/ -doc/} doc{README.adoc PACKAGE-README.md LICENSE} manifest
+
+# Registry XML and extension specifications. extensions/ also carries
+# registry website and index generator tooling alongside the vendor
+# specifications, so specification content is selected by extension
+# rather than installing the directory wholesale.
+#
+./: doc/doc{*.xml extensions/**.txt extensions/**.html}
+
+doc/doc{*}:
+{
+  install         = doc/
+  install.subdirs = true
+}
 
 # Don't install tests.
 #
