@@ -1,0 +1,8 @@
+: 1
+name: libopengl-registry
+version: 2026.8.3
+type: lib,binless
+language: c
+project: opengl-registry
+summary: Khronos OpenGL, OpenGL ES, and OpenGL SC API and extension headers
+license: MIT, Apache-2.0, SGI-B-2.0
