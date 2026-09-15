@@ -2,3 +2,4 @@ include/GL symlink=dir
 include/GLES2 symlink=dir
 include/GLES3 symlink=dir
 include/GLSC2 symlink=dir
+doc/extensions symlink=dir
